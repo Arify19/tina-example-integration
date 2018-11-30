@@ -1,0 +1,36 @@
+{
+    "event_type": "uplink",
+    "event_data": {        
+        "device_id": "ab53be10-6abf-11e8-85a1-3fab6fd5f783",
+        "user_id": "166003",
+        "timestamp": 1535664886,
+        "application_id": "iotinabox",
+        "hardware_id": "012345689ABCDEF1",
+        "payload": [
+            {
+                "channel": 100,
+                "type": "rssi",
+                "unit": "dbm",
+                "value": -25,
+                "name": "RSSI",
+                "sensor_id": "abd12b70-6abf-11e8-be03-27d505208803"
+            },
+            {
+                "channel": 5,
+                "type": "batt",
+                "unit": "p",
+                "value": 100,
+                "name": "Battery",
+                "sensor_id": "abc851d0-6abf-11e8-8559-dbb17301223e"
+            },
+            {
+                "channel": 5,
+                "type": "digital_sensor",
+                "unit": "d",
+                "value": 0,
+                "name": "Contact Switch",
+                "sensor_id": "f91dfb20-bdfc-11e8-8208-4fa0d449a9d8"
+            }
+        ]
+    }  
+}
